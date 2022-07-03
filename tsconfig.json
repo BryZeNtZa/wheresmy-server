@@ -16,6 +16,29 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@config": [
+        "src/config/all.ts"
+      ],
+      "@common/*": [
+        "src/modules/common/*"
+      ],
+      "@auth/*": [
+        "src/modules/common/auth/*"
+      ],
+      "@geo/*": [
+        "src/modules/common/geo/*"
+      ],
+      "@users/*": [
+        "src/modules/common/users/*"
+      ],
+      "@entity/*": [
+        "src/domain/entities/*"
+      ],
+      "@api/*": [
+        "src/modules/api/*"
+      ],
+    },
   }
 }
